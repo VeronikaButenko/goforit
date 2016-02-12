@@ -1,0 +1,30 @@
+body{
+	background-color:#DDDDDD;
+	text-align: center;
+}
+ul {
+	width: 50%;
+	margin:0 auto;
+}
+li{
+	list-style: none;
+}
+
+.position {
+	background-image: url(images.jpg);
+	width: 600px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.hero {
+	width: 100%;
+	text-align: center;
+}
+.hero > img {
+	height:300px;
+	margin: 0 auto;
+}
+.mission > ul > li {color: 	#000000; }
+.know > ol > li {color: 	#000000; }
