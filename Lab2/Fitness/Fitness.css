@@ -1,0 +1,135 @@
+*{margin: 0; 
+  padding: 0;
+  }
+    
+
+
+h1 {font-family: "Times New Roman", Times, serif; 
+   margin-top: 20px;
+   margin-bottom: 20px}
+
+
+.position {
+width: 1100px;
+height: 1000px;
+margin-top: 0px;
+margin-left: 100px;
+background-color:#F5F5F5;
+border: 1px solid #A9A9A9;}
+
+
+body {
+   background-color: #F5F5F5;
+   position: relative; 
+   padding: 10px;
+}
+
+.menu {
+    width: auto; 
+    border: 0 ; 
+    border-color: #F5F5F5; 
+}
+.menu ul {
+    /*height: 50px;*/
+    position: relative;
+    background-color:#696969; 
+    padding: 5px; 
+
+   }
+
+.menu li {
+    
+    list-style: none;
+    display: inline-block;
+    border: outset, 3px;
+    padding: 1px; 
+}
+
+.menu a {color: #FFFFFF ;
+         border: 0 ; 
+         padding: 10px;
+         text-decoration: none;
+         padding: 10px; }
+
+.side {
+    width: 150px;
+    height: 250px;
+    background-color: #F5F5F5;      
+}
+
+.side a {
+        display: block;
+	    font-style: italic,serif;
+		color: #000000;
+		text-decoration: none;
+        padding:  10px 10px 10px 10px;
+        width: 40px;}
+    
+}
+
+.side ul {
+    list-style-type: none;
+    position: relative;
+    padding: 10px;
+
+}
+
+.side li {
+    list-style: none;
+    border: 1px solid #A9A9A9;
+}
+
+
+.picture article img {
+     display:inline-block;
+     border: 1px solid; 
+     border: 1px solid #ddd;
+     margin: 100px; 
+ }
+
+h4 {margin: 0px 100px 10px 210px;
+	}
+
+p {margin: 0px 100px 10px 210px;
+	word-break: break-all; }
+
+
+
+
+.menu2 {
+    width: 1103px; 
+    height: 35px;
+    border: 3px, #F5F5F5;
+    position: relative;
+    background-color: #C0C0C0;
+    margin-left: 100px;
+}
+
+.menu2 ul {
+	float: left;
+    list-style-type: none;
+    position: relative;
+    margin-left: 0px; 
+    padding: 3px;
+}
+
+.menu2 li {
+    display: inline-block;
+    background: #C0C0C0;
+    padding: 3px; 
+}
+  
+.menu2 a { display: block;
+	    font-style: italic,serif;
+		color:#000000;
+		text-decoration: none;
+		padding: 0 10px;
+
+	}
+
+.footer  {float: right; 
+ padding: 5px; 
+}
+
+ 
+
