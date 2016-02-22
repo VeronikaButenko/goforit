@@ -1,0 +1,14 @@
+* {margin: 0; 
+   padding: 0;}
+
+/*BODY*/
+body  { border-color: #32CD32; }
+
+.fon2 { height: 50px;
+       width: 50px;
+       background-color: #FFFFFF;
+       }
+
+.fon3 { background-image: url(t.png);}
+
+.fon4 { background-image: url(.png);}
