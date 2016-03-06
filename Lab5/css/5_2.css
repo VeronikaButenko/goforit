@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+.header {
+    margin: 22px 0 0 52px;
+    width: 790px;
+    height: 27px;
+}
+.telephone {
+    width: 295px;
+    float: left;
+}
+.telephone img {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background: linear-gradient(to bottom, #206988, #0c3256);
+}
+.telephone span {
+    font: 18px Arial;
+    color: #878e91;
+}
+.login {
+    width: 495px;
+    height: 25px;
+    border-top: 1px solid #a6c3cf;
+    border-bottom: 1px solid #596d80;
+    border-radius: 4px;
+    background: linear-gradient(to top, #0c3256, #206988);
+    box-shadow: 3px 5px 10px 0px rgba(180,180,180,1);
+    float: right;
+}
+.login img {
+    margin: 4px 0 0 7px;
+    width: 14px;
+    height: 18px;
+}
+.login input {
+    height: 16px;
+    border: 0;
+}
+.logo {
+    margin: 10px 0 0 46px;
+}
+.menu {
+    margin: 6px 0 0 46px;
+    width: 909px;
+    height: 32px;
+    border-radius: 4px;
+    background: linear-gradient(to top, #000000, #576068);
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    text-decoration: none;
+    color: #b1bcc0;
+}
+.menu li a:hover {
+    background: linear-gradient(to top, #0c3256, #206988);
+    color: #fff;
+}

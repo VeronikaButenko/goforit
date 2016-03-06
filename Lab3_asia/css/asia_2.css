@@ -1,0 +1,164 @@
+* {margin: 0;
+    padding: 0;}
+
+body {    background-image: url(../img/fon_1.png);
+    font: 14px 'Verdana';
+    position: relative;
+}
+.top {
+    height: 422px;
+}
+.position {width: 1050px;
+    height: 970px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px;
+}
+
+.hero {background-image: url(img/t.png);
+    width:388px;
+    height: 174px;
+}
+
+.contacts {
+    font-family: 'Tahoma Regular', sans-serif;
+    font-size: 12px;
+    top:10px;
+    right: 180px;
+    float: right;
+    position: absolute;
+    line-height: 10px;
+    color: #87CEEB;
+}
+
+.countries {position: absolute;
+    float: right;
+    right: 178px;
+    top: 95px;
+    font-size: 12px;
+}
+
+
+.countries ul li {display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 8px;
+}
+
+.countries ul li > a {color: #87CEEB;
+}
+
+.sea img {width: 1050px;
+}
+
+/*======================menu========*/
+.menu {
+    width: 1050px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: relative;
+    background: #323232;
+    z-index: 2;
+}
+.menu li {
+    float: left;
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 131px;
+
+}
+.menu a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: center;
+
+}
+
+.menu a:hover {
+    color: yellow;
+
+}
+
+/*=====================ВЫПАДАЮЩЕЕ МЕНЮ==========*/
+
+.menu li a {
+    display: block;
+    padding-top: 5px;
+    background: #323232;
+    height: 25px;
+    border-bottom: 1px solid white;
+    -webkit-transition: 0.8s linear-opacity;
+    /*box-shadow: 0px 1px 3px black;*/
+
+}
+
+.menu ul {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    left: -9999px;
+
+}
+
+.menu li:hover ul {
+    left: 0;
+    opacity: 1;
+
+}
+/*==============контент============*/
+
+.left {float: left;
+    width: 220px ;
+    height: 515px;
+    margin-top: 0px;
+    background-color:#DCDCDC;}
+
+.left h3 {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.left p {
+    margin: 15px;
+}
+
+.center h3 {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.center p {
+    margin: 15px;
+}
+
+.right {
+    float: right;
+    width: 220px;
+    height: 515px;
+    margin: -15px 0px 0px 0px;
+    background-color: #DCDCDC;
+}
+
+.right h3 {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.right p {
+    margin: 15px;
+}
+
+.footer {color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+}
+
+
+

@@ -1,0 +1,150 @@
+*{margin: 0;
+    padding: 0;
+}
+
+
+.title p {
+    margin: 0;
+    padding: 10px 0 10px 35px;
+    font: 30px 'Times New Roman';
+}
+
+
+.position {
+    width: 1100px;
+    height: 1000px;
+    margin-top: 0;
+    margin-left: 100px;
+    background-color:#F5F5F5;
+    border: 1px solid #A9A9A9;}
+
+
+body {
+    background-color: #F5F5F5;
+}
+
+.menu {
+    width: auto;
+    padding: 0;
+}
+.menu ul {
+    background: linear-gradient(to top, black, grey);
+    height: 20px;
+    padding: 10px 0 0 0;
+
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    border: outset 3px;
+}
+
+.menu a {
+    color: #FFFFFF ;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+    background: linear-gradient(to top, white, black);
+}
+
+.side {
+    margin: 15px 25px 0 20px;
+    width: 253px;
+    background-color: #F5F5F5;
+    float: left;
+}
+
+.side a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    height: 30px;
+}
+
+.side li a:hover {
+    padding: 0 0 0 20px;
+}
+.side ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.side li {
+    list-style: none;
+    border: 1px solid #A9A9A9;
+}
+
+
+.picture {
+    margin: 15px 0 25px 0;
+    width: 750px;
+    height: 640px;
+    float: right;
+    border: 1px solid #ddd;
+}
+
+/*.picture img {
+    margin: 15px 0 0 0;
+     width: 600px;
+     height: 442px;
+     float: right;
+     display:inline-block;
+     border: 1px solid;
+     border: 1px solid #ddd;
+}*/
+
+
+h4 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+
+
+
+.menu2 {
+    margin: 20px 0 0 0;
+    width: 1100px;
+    height: 35px;
+    border: 3px #F5F5F5;
+    background-color: #C0C0C0;
+    clear: both;
+}
+
+.menu2 ul {
+    float: left;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 3px;
+}
+
+.menu2 li {
+    display: inline-block;
+    background: #C0C0C0;
+    padding: 3px;
+}
+
+.menu2 a { display: block;
+    font-style: normal italic;
+    color: grey;
+    text-decoration: none;
+    padding: 0 10px;
+
+}
+
+.menu2 li a:hover {
+    text-decoration: underline;
+}
+
+.footer {float: right;
+    margin-right: 20px;
+
+}
+
+
