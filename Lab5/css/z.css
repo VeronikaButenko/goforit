@@ -1,0 +1,89 @@
+body {
+	margin: 15px  50px 0 50px;
+	background-color: #C71585;
+}   
+ 
+.contacts > img { margin-left: 7px;
+	
+}
+
+.contacts>span {
+	font-size: 20px;
+	font-width: bold;
+	color: #444141;
+	
+}
+
+.contacts {
+	background-color: #ffffff;
+	width: 910px;
+	height: 40px;
+	}
+
+.registration {
+	background-color: #256393;
+	width: 300px;
+	height: 20px;
+}
+
+.menu_1 {
+	background-color: #1d7c3e;
+	width: 300px;
+	height: 20px;
+}
+
+.box_1{
+	background-color: #336633; 
+	width: 300px;
+	height: 20px;
+}
+
+.box_2 {
+	background-color: #66335f;
+	width: 300px;
+	height: 20px;
+}
+
+.box_3 {
+	background-color: #e8622d;
+	width: 300px;
+	height: 20px;
+	
+}
+
+.left{
+	background-color: #164788;
+	width: 300px;
+	height: 20px;
+}
+
+.center {
+	background-color: #168829;
+	width: 300px;
+	height: 20px;
+
+}
+
+.right {
+	background-color: #1d191c;
+	width: 300px;
+	height: 20px;
+} 
+
+.sprite {background-color: #1d1a19;
+	width: 300px;
+	height: 20px;
+
+}
+
+.menu_2 {background-color: #191d1d;
+	width: 300px;
+	height: 20px;
+
+}
+
+.copyrite {background-color: #259327;
+	width: 300px;
+	height: 20px;
+
+}

@@ -1,23 +1,19 @@
-* {margin: 0;
-    padding: 0;}
 
 body {    background-image: url(../img/fon_1.png);
     font: 14px 'Verdana';
     position: relative;
 }
-.top {
-    height: 422px;
-}
+
+
 .position {width: 1050px;
-    height: 970px;
     margin: 0 auto;
     margin-bottom: 30px;
     background-color: #FFFFFF;
     box-shadow: 0 0 10px;
 }
 
-.hero {background-image: url(img/t.png);
-    width:388px;
+.hero {background-image: url (../img/t_1.png);
+    width:400px;
     height: 174px;
 }
 
@@ -73,13 +69,11 @@ body {    background-image: url(../img/fon_1.png);
     color: white;
     font-size: 14px;
     text-decoration: none;
-    vertical-align: center;
-
+    vertical-align: middle;
 }
 
 .menu a:hover {
     color: yellow;
-
 }
 
 /*=====================ВЫПАДАЮЩЕЕ МЕНЮ==========*/
@@ -109,55 +103,68 @@ body {    background-image: url(../img/fon_1.png);
 
 }
 /*==============контент============*/
-
-.left {float: left;
-    width: 220px ;
-    height: 515px;
-    margin-top: 0px;
+.fonColumn {
+    width: 650px;
+    overflow: hidden; 
+}
+.leftColumn {float: left;
+    width: 220px;
+    height: 538px;
+    margin-top: 0;
     background-color:#DCDCDC;}
 
-.left h3 {
+.leftColumn h3 {
     margin: 15px;
     font-weight: bold;
 }
 
-.left p {
+.leftColumn p {
     margin: 15px;
 }
 
-.center h3 {
-    margin: 10px;
+.centerColumn {float: left;
+    background-color: white;
+    width: 610px;
+    height: 538px;
+    text-align: uppercase;
+   
+}
+
+.centerColumn h3 {
+    margin: 15px;
     font-weight: bold;
 }
 
-.center p {
+.centerColumn p {
     margin: 15px;
 }
 
-.right {
+.rightColumn {
     float: right;
     width: 220px;
-    height: 515px;
+    height: 553px;
     margin: -15px 0px 0px 0px;
     background-color: #DCDCDC;
+
 }
 
-.right h3 {
+.rightColumn h3 {
     margin: 15px;
     font-weight: bold;
 }
 
-.right p {
+.rightColumn p {
     margin: 15px;
 }
 
 .footer {color: white;
     text-align: center;
-    position: absolute;
+    position: bottom;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 0px;
+    clear: both; 
 }
 
 
