@@ -12,7 +12,8 @@ body {    background-image: url(../img/fon_1.png);
     box-shadow: 0 0 10px;
 }
 
-.hero {background-image: url (../img/t_1.png);
+.hero {
+    background-image: url(../img/t_1.png);
     width:400px;
     height: 174px;
 }

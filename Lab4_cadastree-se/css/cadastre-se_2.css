@@ -27,16 +27,18 @@ body {
     float: left;
     display: inline;
     list-style-type: none;
+    color: #00BFFF;
 }
 
-.menu_1 li {
+.menu_1> li {
     padding: 9px;
     font: 14px 'Helvetica Neue Regular';
-    display: inline-block;}
+    display: inline-block; 
+}   
 
-li a {
+.menu_1 >li >a {
+    color: #00BFFF;
     padding: 10px;
-    color: #60b5ed;
     text-decoration: none;
 }
 /*=====================ВЫПАДАЮЩЕЕ МЕНЮ==========*/
@@ -57,8 +59,8 @@ li a {
     background-color: #56a2dc;
     float: left;
 }
-img {
-    margin-left: 28px;
+.flag >img {
+    margin-left: 120px;
     padding-top: 6px;}
 
 .menu_2 {
@@ -117,13 +119,22 @@ img {
     text-align: center;
 }
 .line_2 {
-    margin: 180px 0 0 0;
+    margin: 0 0 0 0;
     width: 600px;
-    height: 600px;
+    height: 112px;
+    border-bottom: 1px solid transparent;
     position: absolute;
-    top: 64px;
+    top: 237px;
     left: 335px;
     background-color: #fff;
+    background: rgba( 0, 0, 0, 0.4);
+}
+.line_3{
+    width: 600px;
+    height: 544px;
+    position: absolute;
+    top: 351px;
+    left: 335px;
     background: rgba( 0, 0, 0, 0.4);
 }
 
@@ -195,7 +206,7 @@ img {
 .email,
 .choose-pass,
 .pass-confirm
-{ margin-bottom: 19px;
+{ margin-bottom: 25px;
     padding: 0 0 0 18px;
     width: 265px;
     height: 35px;
@@ -204,6 +215,9 @@ img {
     background-color: #100f0f;
     font: 14px 'Helvetica Neue Regular';
     color: #a8a8a8;
+    text-align: center;
+    margin: 20px 0 0 20px;
+    
 }
 
 :focus {
@@ -248,7 +262,7 @@ img {
     text-align: center;
 }
 
-legend {
+.legend {
     margin-bottom: 10px;
     text-align: center;
     padding: 10px;
@@ -256,11 +270,11 @@ legend {
     padding-left: 420px;
 }
 
-input {
+.input {
 margin-left: auto;
 
 }
-fieldset {
+.fieldset {
     border-left : 0;
     border-right:  0;
     border-bottom: 0;
