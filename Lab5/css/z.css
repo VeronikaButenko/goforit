@@ -1,21 +1,18 @@
-.body {
-	background-color: #FA8072;
-}
+/*.body {background-color: #98FB98;*/
+/*}*/
 
 .s_body {
-	margin: 25px  50px 0 39px;
+	margin: 30px  50px 0 39px;
 	background-color: #ffffff;
 }
 
-.header {
-	display: inline;
-}
 
 .contacts {
 	width: 500px;
 	height: 25px;
 	margin-right: 100px;
 	border-radius: 5px;
+	display: inline-block;
 }
 
 .contacts img {
@@ -44,3 +41,6 @@
 	height: 29px;
 	background-color: #56a2dc;
 }
+
+.menu_1 {display: inline-table; }
+/*.logo {background-image: url(../img/logo.png); }*/
